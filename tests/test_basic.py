@@ -95,16 +95,29 @@ class BasicTestSuite(unittest.TestCase):
         self.assertEqual(round(100 * alcoholo.tables.q_q_t(67.0 / 100, 35.0), 1), 61.8)
 
     # Table IXa
-    # TODO
+    def test_p_rho20prime_t(self):
+        self.assertEqual(round(100 * alcoholo.tables.p_rho20prime_t(800.0, 20.0),2), 96.44)
+        self.assertEqual(round(100 * alcoholo.tables.p_rho20prime_t(800.0, 10.0),2), 99.22)
+        self.assertEqual(round(100 * alcoholo.tables.p_rho20prime_t(900.0, 10.0),2), 59.57)
+        self.assertEqual(round(100 * alcoholo.tables.p_rho20prime_t(900.0, 0.0),2), 62.96)
 
     # Table IXb
-    # TODO
+    def test_q_rho20prime_t(self):
+        self.assertEqual(round(100 * alcoholo.tables.q_rho20prime_t(900.0, 0.0),2), 70.53)
 
     # Table Xa
-    # TODO
+    def test_p_rho20prime_t_bis(self):
+        self.assertEqual(round(100 * alcoholo.tables.p_rho20prime_t_bis(800.0, 20.0),2), 96.44)
+        self.assertEqual(round(100 * alcoholo.tables.p_rho20prime_t_bis(800.0, 10.0),2), 99.22)
+        self.assertEqual(round(100 * alcoholo.tables.p_rho20prime_t_bis(900.0, 10.0),2), 59.57)
+        self.assertEqual(round(100 * alcoholo.tables.p_rho20prime_t_bis(900.0, 0.0),2), 62.96)
 
     # Table Xb
-    # TODO
+    def test_q_rho20prime_t_bis(self):
+        self.assertEqual(round(100 * alcoholo.tables.q_rho20prime_t_bis(800.0, 20.0),2), 97.75)
+        self.assertEqual(round(100 * alcoholo.tables.q_rho20prime_t_bis(800.0, 10.0),2), 99.53)
+        self.assertEqual(round(100 * alcoholo.tables.q_rho20prime_t_bis(900.0, 10.0),2), 67.33)
+        self.assertEqual(round(100 * alcoholo.tables.q_rho20prime_t_bis(900.0, 0.0),2), 70.53)
 
     # Table XIa
     def test_v_p_t_100l(self):
