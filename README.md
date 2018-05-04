@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/desnoe/alcoholo.svg?branch=master)](https://travis-ci.org/desnoe/alcoholo)
+[![Coverage Status](https://coveralls.io/repos/github/desnoe/alcoholo/badge.svg?branch=master)](https://coveralls.io/github/desnoe/alcoholo?branch=master)
 
 *Read this in other languages: [French](README.fr.md).*
 
