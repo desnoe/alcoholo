@@ -4,8 +4,9 @@ This python module calculates the alcoholometric table as defined in the specifi
 
 ## Examples
 
-Determine the density of a mixture of water and ethanol from the alcoholic strength by mass and from the temperature:
+Determine the density (in kg/m3) of a mixture of water and ethanol from the alcoholic strength by mass (for example 50%) and from the temperature (at 20°C for example):
 
 ```
-
+from alcoholo.tables import rho_p_t
+rho_p_t(0.5, 20.0)
 ```
