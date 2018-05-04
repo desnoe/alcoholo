@@ -11,7 +11,7 @@ with open('LICENSE') as f:
 setup(
     name='alcoholo',
     version='0.1.0',
-    description='A python module to calculate alcoholometric tables as defined by OIML (Internation Organization of Legal Metrology)',
+    description='A python module to calculate alcoholometric tables as defined by OIML (International Organization of Legal Metrology)',
     long_description=readme,
     author='Olivier Desnoë',
     author_email='olivier@albatross-networks.com',
